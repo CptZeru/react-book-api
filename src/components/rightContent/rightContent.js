@@ -27,7 +27,7 @@ class RightContent extends React.Component {
           })
         this.setState({
             title: "Book Detail",
-            content: <DetailBook title={this.state.book.title} category={this.state.book.category} description={this.state.book.description}/>            
+            content: <DetailBook id={this.state.book.id} title={this.state.book.title} category={this.state.book.category} description={this.state.book.description}/>            
         })
         this.showModal();
     }
